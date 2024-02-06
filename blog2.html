@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="blog.css">
+    <script src="a1.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <title>Blog2</title>
+</head>
+
+<body class="blogbody">
+    <h1 style="text-align: center;font-family: Quicksand;font-size:60px">Nature</h1>
+    <div class="blogcom">
+        <p style="padding: 0.5% 0.5%;font-size: 25px;">In our increasingly industrialised and mechanical world, I think
+            it’s more important than ever to take note of those moments when nature displays its simple yet spectacular
+            beauty to us.
+
+            It’s simple because a lot of nature’s wonders are everyday occurrences that we can witness just by going
+            outside and being a bit more observant than usual. But it’s also spectacular because it’s sometimes
+            unbelievable just how wonderful it can be to witness these beautiful events and fully be present for them.
+            Connecting with nature uplifts the soul and can help to brighten your entire outlook.
+
+            Even in urban environments, there are still many opportunities to observe the beauty of nature. It can be
+            even more wonderful to find something amazing where you would least expect it. For example, this rainbow
+            that I observed recently above some busy, traffic-filled roads.</p>
+
+        <p style="padding: 0.5% 0.5%;font-size: 25px;"> Life can get so busy and hectic sometimes that we might not
+            think to take the time to pause and look up at
+            the sky. To marvel at the magnificence of the moon and the stars that decorate the night, or the clouds that
+            softly drift and part to reveal a brilliant sun.
+
+            We might not think to stop on our walk to work to literally ‘smell the flowers’ – to enjoy the scents that
+            surround us and think how they are different maybe to the scents we encounter at other times of the year.
+            The seasons are changing and there are new plants growing. There are animals that are scampering around and
+            gathering food for the colder weather.</p>
+
+    </div>
+
+    <div style="margin-bottom: 160px;" class="blog" id="blog2">
+        <span class="like-btn" style="font-size: 30px;height: 40px;" onclick="likePost(this)">🤍</span>
+        <span>9</span>
+        <div class="comment-section">
+            <textarea
+                style="font-size: 20px;font-family: Quicksand;border-radius: 25px;background-color:rgb(252, 251, 252);"
+                id="commentInput_blog2" placeholder="Add comment here" rows="4" cols="50"></textarea>
+
+            <button style="font-size: 20px;font-family: Quicksand;" onclick="addComment('blog2')">Add</button>
+            <div id="comments_blog2"></div>
+        </div>
+    </div>
+
+</body>
+
+</html>

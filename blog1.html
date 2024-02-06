@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="blog.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <script src="a1.js"></script>
+    <title>Blog1</title>
+</head>
+
+<body class="blogbody">
+    <h1 style="text-align: center;font-family: Quicksand;font-size:60px">Mental Health</h1>
+    <div class="blogcom">
+        <p style="padding: 0.5% 0.5%;font-size: 25px;">Mental health comprises our emotional, psychological, and social
+            security. It impacts how we think, feel, and act. It also helps conclude how we manage stress, relate to
+            others, and make choices. Mental health is important at every phase of life, from childhood and adolescence
+            through middle age.
+
+            According to the World Health Organization (WHO): “Mental health is a state of well-being in which an
+            individual realizes his or her own abilities, can cope with the normal stresses of life, can work
+            productively, and is able to make a contribution to his or her community.”
+
+            Over the course of one’s life, if one experiences mental health problems, one’s thinking, attitude, and
+            behaviour could be impacted. Many aspects contribute to mental health problems, including:</p>
+        <ul style="font-size: 25px;">
+            <li>Biological factors, such as genetic factor or brain chemistry</li>
+            <li>Life experiences, such as trauma or exploitation</li>
+            <li>Family history of mental health issues</li>
+        </ul>
+
+
+        <p style="padding: 0.5% 0.5%;font-size: 25px;">The COVID-19 pandemic has resulted in a lot of mental health
+            issues and they impact not only those who get the disease and those who treat it but also the general
+            population, comprising essential workers and those sheltering in place. Anxiety, stress and depression had
+            all been rising concerns before the pandemic and recently there was another very material problem adding to
+            that list — caution fatigue.</p>
+    </div>
+
+    <div class="blogger" id="blogger1">
+        <span class="like-btn" style="font-size: 30px;height: 40px;" onclick="likePost(this)">🤍</span>
+        <span>9</span>
+        <div class="comment-section">
+            <textarea
+                style="font-size: 20px;font-family: Quicksand;border-radius: 25px;background-color:rgb(252, 251, 252);"
+                id="commentInput_blog1" placeholder="Add comment here" rows="4" cols="50"></textarea>
+
+            <button style="font-size: 20px;font-family: Quicksand;" onclick="addComment('blog1')">Add</button>
+            <div id="comments_blog1"></div>
+        </div>
+    </div>
+</body>
+
+</html>

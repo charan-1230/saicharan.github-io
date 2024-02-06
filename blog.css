@@ -1,0 +1,33 @@
+.blogbody {
+    background-image: linear-gradient(#51E2F5, #9DF9EF, #EDF7F6, #FFA8B6, #A28089);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.blogcontainer {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    flex-wrap: wrap;
+    height: 900px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2px;
+}
+
+.blogcom {
+    border: solid rgb(2, 2, 2) 2px;
+    margin: 1% 1%;
+    border-radius: 25px;
+}
+
+.like-btn {
+
+    color: rgb(247, 0, 0);
+    cursor: pointer;
+}
+
+.comment-section {
+    margin-top: 10px;
+}
